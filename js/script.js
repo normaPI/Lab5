@@ -19,11 +19,11 @@ $("#ButtonPost").on("click",function(e){
 });
 
 $("#ButtonClear").on("click",function(){
-    $("[name='ToDos']").prop('checked', false);  
+    $("[name = 'ToDos']").prop('checked', false);  
 });
 
 $("#ButtonMark").on("click",function(){
-    $("[name='ToDos']").prop('checked', true);  
+    $("[name = 'ToDos']").prop('checked', true);  
 });
 
 $("#ButtonDelete").on("click",function(){
